@@ -1,0 +1,63 @@
+
+h1 {
+    color: red;
+    padding: 20px;
+    font-size: 50px;
+    text-align: center;
+}
+/*Adding background image to body*/
+.background-img {
+    background-image: url(https://cdn.pixabay.com/photo/2017/03/17/12/47/winegrowing-2151457__340.jpg);  
+    background-repeat: no-repeat;
+    background-size: cover; 
+    opacity: .6;
+    z-index: -2;
+    position: absolute; 
+    padding: 100%; 
+}
+
+
+
+/*Put emphazies on title*/
+
+.title {
+    font-weight: bold;
+    text-shadow: bold;
+    font-style: italic;
+    color: blue; 
+}
+.words {
+    font-weight: bold;
+}
+
+.floating-box {
+    list-style-position: outside
+        }
+        
+.resources {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: red;
+    color: white;
+    text-align: center;
+
+/*Media Query*/
+
+  /* If the screen size is 601px or more, set the font-size of <div> to 80px */
+  @media only screen and (min-width: 601px) {
+    border-style:  {
+      font-size: 80px;
+    }
+  }
+  
+  /* If the screen size is 600px or less, set the font-size of <div> to 30px */
+  @media only screen and (max-width: 600px) {
+    border-style:  {
+      font-size: 30px;
+    }
+  }
+
+
+        

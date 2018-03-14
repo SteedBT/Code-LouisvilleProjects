@@ -1,9 +1,2 @@
-const odd = $('a:odd');
-odd.hide();
 
-if (odd) {
-    listDiv.style.display = "block";
-} else {
-    listDiv.style.display = "none";}
-
-    
+alert("Thank you for visiting this site!");    
